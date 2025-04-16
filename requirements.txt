@@ -4,6 +4,7 @@ langchain-community
 langchain-openai
 langchain-experimental
 langchain-pinecone
+langchain-huggingface  # ✅ ADD THIS LINE
 
 # Hugging Face + Embeddings
 transformers
