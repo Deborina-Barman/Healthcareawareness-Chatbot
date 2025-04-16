@@ -1,0 +1,31 @@
+# LangChain ecosystem
+langchain
+langchain-community
+langchain-openai
+langchain-experimental
+langchain-pinecone
+
+# Hugging Face + Embeddings
+transformers
+sentence-transformers==2.2.2
+datasets
+huggingface_hub
+sentencepiece
+tokenizers
+accelerate
+bitsandbytes
+torch
+
+# Vector DB
+pinecone-client>=3.0.0
+
+# Document loading
+pypdf
+unstructured
+
+# Web + Env
+python-dotenv
+streamlit  # Added Streamlit for the UI
+
+# Local editable install (optional)
+-e .
