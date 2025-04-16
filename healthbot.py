@@ -1,7 +1,6 @@
 import os
 import base64
 import streamlit as st
-from dotenv import load_dotenv
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from langchain_community.llms import HuggingFacePipeline
 from langchain_core.prompts import PromptTemplate
@@ -10,9 +9,10 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone
 
-# Load environment variables
-load_dotenv()
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+# ⛔️ REMOVE dotenv
+# ✅ Use st.secrets for Streamlit Cloud secrets
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
+
 
 MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 INDEX_NAME = "healthcare-awareness-index"
