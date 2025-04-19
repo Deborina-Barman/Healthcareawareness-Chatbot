@@ -1,35 +1,20 @@
-# LangChain core and integrations
-langchain
-langchain-community
-langchain-openai
-langchain-experimental
-langchain-pinecone
-langchain-huggingface  # Needed for HuggingFaceEmbeddings
+# Core
+streamlit>=1.30
+python-dotenv  # Optional for local testing
+Pillow         # For background image support
 
 # Hugging Face + Transformers
 transformers>=4.36.2
-sentence-transformers==2.2.2
-datasets
-huggingface_hub
 sentencepiece
 tokenizers
 accelerate
-bitsandbytes
-torch  # Let Streamlit Cloud choose compatible torch version
+torch          # Let platform auto-resolve compatible version
 
-# Pinecone vector store
+# LLM + LangChain
+langchain>=0.1.14
+langchain-community>=0.0.29
+langchain-huggingface
+langchain-pinecone
+
+# Vector Store
 pinecone-client>=3.0.0
-
-# PDF + document loading (used for future indexing scripts)
-pypdf
-unstructured
-
-# Web + UI
-streamlit>=1.30
-python-dotenv  # Optional for local testing, not used in cloud
-
-# Base64 background support
-Pillow  # Ensures image processing is available
-
-# Editable local install (if using setup.py locally)
-
