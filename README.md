@@ -89,4 +89,7 @@ Healthcareawareness-Chatbot/
 
 
 ---
+##🧪 Screenshots
+💬 Flan-T5 Chatbot (Deployed Version)
 
+💻 Mistral 7B Local Version
