@@ -12,7 +12,7 @@ This project integrates **Retrieval-Augmented Generation (RAG)** with domain-spe
 ## 🚀 Live Demo
 
 **💬 Try it on Hugging Face Spaces**  
-[👉 Healthcare Chatbot Demo]([https://huggingface.co/spaces/Deborina01/healthcare-chatbot-123])
+[👉 Healthcare Chatbot Demo](https://huggingface.co/spaces/Deborina01/healthcare-chatbot-123)
 
 ---
 
