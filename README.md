@@ -90,19 +90,3 @@ Healthcareawareness-Chatbot/
 
 ---
 
-## 🧪 Screenshots
-
-💬 **Flan-T5 Chatbot (Deployed Version)**  
-![Flan Chatbot Screenshot](assets/screenshot_flan.png)
-
-💻 **Mistral 7B Local Version**  
-![Mistral Chatbot Screenshot](assets/screenshot_mistral.png)
-
----
-
-## 🔧 How to Run the Project Locally
-
-### ✅ Step 1: Clone the Repo
-```bash
-git clone https://github.com/your-username/Healthcareawareness-Chatbot.git
-cd Healthcareawareness-Chatbot
