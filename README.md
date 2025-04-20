@@ -86,10 +86,11 @@ Healthcareawareness-Chatbot/
 │   └── demo.gif             # Optional: GIF demo of chat
 │
 └── .gitignore               # Ignore cache, .env, etc.
-
+---
 
 ---
 ##🧪 Screenshots
 💬 Flan-T5 Chatbot (Deployed Version)
 
 💻 Mistral 7B Local Version
+---
