@@ -64,7 +64,7 @@ Mistral 7B is a **more powerful open-weight LLM**. It offers:
 ---
    ### 🧪 Screenshots
 💬 Flan-T5 Chatbot (Deployed Version)
-![Flan Demo](assets/screenshot_flan.png)
+![Flan Demo](https://github.com/Deborina-Barman/Healthcareawareness-Chatbot/blob/main/assests/screenshot_flan1.png)
 ![Mistral Demo](assets/screenshot_mistral.png)
 
 💻 Mistral 7B Local Version
