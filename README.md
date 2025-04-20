@@ -63,7 +63,30 @@ Mistral 7B is a **more powerful open-weight LLM**. It offers:
 
 ---
 
+
 ## 🏗️ Project Structure
+
+```plaintext
+Healthcareawareness-Chatbot/
+│
+├── app_flan_t5.py           # Main app for Hugging Face deployment
+├── app_mistral.py           # Local app using Mistral 7B
+├── requirements.txt         # Dependencies list
+├── README.md                # This file
+│
+├── data/
+│   └── urls.json            # URLs of government healthcare schemes
+│
+├── src/
+│   ├── helper.py            # Functions for loading, parsing text
+│   └── storeindex.py        # Pinecone indexing logic
+│
+├── assets/
+│   ├── screenshot_flan.png  # Flan-T5 demo screenshot
+│   ├── screenshot_mistral.png # Mistral demo screenshot
+│   └── demo.gif             # Optional: GIF demo of chat
+│
+└── .gitignore               # Ignore cache, .env, etc.## 🏗️ Project Structure
 
 ```plaintext
 Healthcareawareness-Chatbot/
@@ -86,9 +109,6 @@ Healthcareawareness-Chatbot/
 │   └── demo.gif             # Optional: GIF demo of chat
 │
 └── .gitignore               # Ignore cache, .env, etc.
----
-
----
 ##🧪 Screenshots
 💬 Flan-T5 Chatbot (Deployed Version)
 
